@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Drinks/Deserts</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+
+    <script src="scripts/index.js"></script>
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <img src="pics/logo.png" class="logo" alt="logo" />
+
+    </header>
+
+    <noscript> <a>Javascript not enabled</a></noscript>
+    <nav class="sticky">
+
+        <ul class="ulhorizontal">
+
+            <li>
+                <h3><a href="index.html"> Home </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="pizza.html"> Pizza </a> </h3>
+            </li>
+
+
+            <li>
+                <h3><a href="drinks.html"> Drinks/Deserts </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chips_dips.html"> Chips/Dips </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chicken.html"> Chicken </a> </h3>
+            </li>
+
+            <li class="to_right">
+                <h3><a href="register.html"> Register </a> </h3>
+            </li>
+            <li class="to_right">
+                <h3><a href="login.html"> Login </a> </h3>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="emptyGridContainer">
+        <div class="emptygrid-item">
+
+            <div id="myTable">
+                <h3>My cart</h3>
+            </div>
+
+
+        </div>
+        <div class="emptygrid-item" id="item2">
+            <form action="order.html">
+                <input type="submit" class="button" value="CHECKOUT" />
+            </form>
+        </div>
+    </div>
+
+
+    <div class="grid-container">
+
+        <div class="grid-item ">
+            <img class="toleft" src="pics/coke.jpg" alt="Coke" />
+            <h5>Coke</h5>
+            <form>
+                <input class="button torightp" type="button" value="Add to cart"
+                    onclick="add(0,'scripts/drinkData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/icedtea.jpg" alt="Iced tea" />
+            <h5>Ice Tea</h5>
+            <form>
+                <input class="button torightp" type="button" value="Add to cart"
+                    onclick="add(1,'scripts/drinkData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/water.jpg" alt="Water" />
+            <h5>Water</h5>
+            <form>
+                <input class="button torightp" type="button" value="Add to cart"
+                    onclick="add(2,'scripts/drinkData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/ice-cream.jpg" alt="Ice Cream" />
+            <h5>Ice Cream</h5>
+            <form>
+                <input class="button torightp" type="button" value="Add to cart"
+                    onclick="add(3,'scripts/drinkData.json')" />
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+<footer>
+
+    <nav>
+        <hr>
+        <ul class="bodycolour ulhorizontal">
+            <li>
+                <a href="index.html#map"> Contact Us </a>
+            </li>
+
+            <li>
+                <a href="index.html#aboutUs"> About Us </a>
+            </li>
+
+            <li>
+                <a href="ToU.html"> Terms of Use </a>
+            </li>
+            <li>
+                <a href="Corona.html"> Corona Virus </a>
+            </li>
+        </ul>
+    </nav>
+
+</footer>
+</body>
+</html>

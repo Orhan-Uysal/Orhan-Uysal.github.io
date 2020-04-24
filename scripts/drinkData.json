@@ -1,0 +1,20 @@
+{
+    "objects":[{
+            "Name":"Coke",
+            "cost":"1.99€"
+        },
+        {
+            "Name":"Ice Tea",
+            "cost":"2.99€"
+        },
+        {
+            "Name":"Water",
+            "cost":"0.99€"
+        },
+        {
+            "Name":"Ice Cream",
+            "cost":"4.99€"
+        }
+
+    ]
+}

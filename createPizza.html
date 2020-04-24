@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Create your pizza</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+
+    <script src="scripts/index.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <img src="pics/logo.png" class="logo" alt="logo"/>
+
+    </header>
+
+    <noscript> <a>Javascript not enabled</a></noscript>
+    <nav class="sticky">
+
+        <ul class="ulhorizontal">
+
+            <li>
+                <h3><a href="index.html"> Home </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="pizza.html"> Pizza </a> </h3>
+            </li>
+
+
+            <li>
+                <h3><a href="drinks.html"> Drinks/Deserts </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chips_dips.html"> Chips/Dips </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chicken.html"> Chicken </a> </h3>
+            </li>
+
+            <li class="to_right">
+                <h3><a href="register.html"> Register </a> </h3>
+            </li>
+            <li class="to_right">
+                <h3><a href="login.html"> Login </a> </h3>
+            </li>
+        </ul>
+
+    </nav>
+
+    <form action="order.html" name="myForm" onSubmit= "return validateAll()" >
+        <div class="register-container">
+            <h1>Create your own delicious pizza</h1>
+            <hr>
+
+            <p><label for="base"><b>Choose your base:</b></label></p>
+            <select id="base" name="base" >
+              <option value="extrathin">Extra thin</option>
+              <option value="thin">Thin</option>
+              <option value="regular">Regular</option>
+              <option value="thick">Thick</option>
+            </select>
+
+            <p><label for="size"><b>Choose your size:</b></label></p>
+            <select id="size" name="size" >
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="extralarge">Extra Large</option>
+            </select>
+            
+            <p><b>Cheese Toppings:</b></p>
+            <label for="Mozarella"><b>Mozarella </b></label>
+            <input type="checkbox"  name="Mozarella" id="Mozarella" >
+
+            <label for="Chedar"><b>Chedar </b></label>
+            <input type="checkbox"  name="Chedar" id="Chedar">
+            
+            <label for="extraMozarella"><b>Extra Mozarella </b></label>
+            <input type="checkbox"  name="extraMozarella" id="extraMozarella">
+
+            <p><b>Meat Toppings:</b></p>
+            <label for="M1"><b>Bacon </b></label>
+            <input type="checkbox"  name="M1" id="M1">
+
+            <label for="M2"><b>Pepperoni </b></label>
+            <input type="checkbox"  name="M2" id="M2">
+
+            <label for="M3"><b>Chicken </b></label>
+            <input type="checkbox"  name="M3" id="M3">
+
+            <p><b>Vegetable Toppings:</b></p>
+            <label for="V1"><b>Mushrooms </b></label>
+            <input type="checkbox"  name="V1" id="V1">
+
+            <label for="v2"><b>Sweetcorn </b></label>
+            <input type="checkbox"  name="v2" id="v2">
+
+            <label for="v3"><b>Pepper </b></label>
+            <input type="checkbox"  name="v3" id="v3">
+
+            <p><b>Fruit Toppings:</b></p>
+            <label for="f1"><b>Pineapple </b></label>
+            <input type="checkbox"  name="f1" id="f1">
+
+            <label for="f2"><b>Olives </b></label>
+            <input type="checkbox"  name="f2" id="f2">
+            
+            <br>
+            <input type="submit" class="button-mid button" value="Order Now" />
+            <p><b>Note that you can choose maximum of 3 topings, after that every topping costs 1€.</b></p>
+            <p><b>These prices are calculated without the taxes.</b></p>
+            <p><b>They are always fresh ingredients.</b></p>
+            <h6>Terms and conditions may apply, Results may vary</h6>
+        </div>
+    </form>
+
+    
+
+
+
+<footer>
+
+    <nav>
+        <hr>
+        <ul class="bodycolour ulhorizontal">
+            <li>
+                <a href="index.html#map"> Contact Us </a>
+            </li>
+
+            <li>
+                <a href="index.html#aboutUs"> About Us </a>
+            </li>
+
+            <li>
+                <a href="ToU.html"> Terms of Use </a>
+            </li>
+            <li>
+                <a href="Corona.html"> Corona Virus </a>
+            </li>
+        </ul>
+    </nav>
+
+</footer>
+
+</body>
+
+</html>

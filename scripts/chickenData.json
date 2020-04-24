@@ -1,0 +1,20 @@
+{
+    "objects":[{
+            "Name":"Chicken Wings",
+            "cost":"4.99€"
+        },
+        {
+            "Name":"Hot Wings",
+            "cost":"5.49€"
+        },
+        {
+            "Name":"Schnitzel",
+            "cost":"3.49€"
+        },
+        {
+            "Name":"Popcorn Chicken",
+            "cost":"4.99€"
+        }
+
+    ]
+}

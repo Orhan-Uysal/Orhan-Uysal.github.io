@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Pizza</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+
+    <script src="scripts/index.js"></script>
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <img src="pics/logo.png" class="logo" alt="logo" />
+
+    </header>
+
+    <noscript> <a>Javascript not enabled</a></noscript>
+    <nav class="sticky">
+
+        <ul class="ulhorizontal">
+
+            <li>
+                <h3><a href="index.html"> Home </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="pizza.html"> Pizza </a> </h3>
+            </li>
+
+
+            <li>
+                <h3><a href="drinks.html"> Drinks/Deserts </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chips_dips.html"> Chips/Dips </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chicken.html"> Chicken </a> </h3>
+            </li>
+
+            <li class="to_right">
+                <h3><a href="register.html"> Register </a> </h3>
+            </li>
+            <li class="to_right">
+                <h3><a href="login.html"> Login </a> </h3>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="emptyGridContainer">
+        <div class="emptygrid-item">
+
+            <div id="myTable">
+                <h3>My cart</h3>
+            </div>
+
+
+        </div>
+        <div class="emptygrid-item" id="item2">
+            <form action="order.html">
+                <input type="submit" class="button" value="CHECKOUT" />
+            </form>
+        </div>
+    </div>
+
+    <div class="grid-container">
+
+        <div class="grid-item ">
+            <img class="toleft" src="pics/make-pizza.jpg" alt="Create your own Pizza " />
+            <h5>Create your own</h5>
+            <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened
+                wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high
+                temperature</p>
+            <form action="createPizza.html">
+                <input class="button torightp" type="submit" value="Start Creating" />
+            </form>
+        </div>
+
+        <div class="grid-item ">
+            <img class="toleft" src="pics/bacon-pizza.jpg" alt="Bacon Pizza " />
+            <h5>Bacon</h5>
+            <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened
+                wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high
+                temperature</p>
+            <form>
+                <input class="button torightp" type="button" value="Add to the basket"
+                    onclick="add(2,'scripts/pizzaData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/cheese-pizza.jpg" alt="Plain Cheese Pizza " />
+            <h5>Mozzarella</h5>
+            <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened
+                wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high
+                temperature</p>
+            <form>
+                <input class="button torightp" type="button" value="Add to the basket"
+                    onclick="add(1,'scripts/pizzaData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/BBQ_Chicken_pizza.jpg" alt="BBQ_Chicken Pizza " />
+            <h5>BBQ chicken</h5>
+            <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened
+                wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high
+                temperature</p>
+            <form>
+                <input class="button torightp" type="button" value="Add to the basket"
+                    onclick="add(0,'scripts/pizzaData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/veggie-pizza.png" alt="Vegaterian Pizza " />
+            <h5>Vegaterian</h5>
+            <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened
+                wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high
+                temperature</p>
+            <form>
+                <input class="button torightp" type="button" value="Add to the basket"
+                    onclick="add(3,'scripts/pizzaData.json')" />
+            </form>
+        </div>
+        <div class="grid-item ">
+            <img class="toleft" src="pics/all-in-one.jpg" alt="All in one Pizza" />
+            <h5>All in one</h5>
+            <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened
+                wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high
+                temperature</p>
+            <form>
+                <input class="button torightp" type="button" value="Add to the basket"
+                    onclick="add(4,'scripts/pizzaData.json')" />
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+
+<footer>
+
+    <nav>
+        <hr>
+        <ul class="bodycolour ulhorizontal">
+            <li>
+                <a href="index.html#map"> Contact Us </a>
+            </li>
+
+            <li>
+                <a href="index.html#aboutUs"> About Us </a>
+            </li>
+
+            <li>
+                <a href="ToU.html"> Terms of Use </a>
+            </li>
+            <li>
+                <a href="Corona.html"> Corona Virus </a>
+            </li>
+        </ul>
+    </nav>
+
+</footer>
+</body>
+
+</html>

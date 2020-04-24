@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Register</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+
+    <script src="scripts/index.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <img src="pics/logo.png" class="logo" alt="logo"/>
+
+    </header>
+
+    <noscript> <a>Javascript not enabled</a></noscript>
+    <nav class="sticky">
+
+        <ul class="ulhorizontal">
+
+            <li>
+                <h3><a href="index.html"> Home </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="pizza.html"> Pizza </a> </h3>
+            </li>
+
+
+            <li>
+                <h3><a href="drinks.html"> Drinks/Deserts </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chips_dips.html"> Chips/Dips </a> </h3>
+            </li>
+
+            <li>
+                <h3><a href="chicken.html"> Chicken </a> </h3>
+            </li>
+            
+            <li class = "to_right">
+                <h3><a href="register.html"> Register </a> </h3>
+            </li >
+            <li class = "to_right">
+                <h3><a href="login.html"> Login </a> </h3>
+            </li>
+            
+        </ul>
+
+    </nav>
+
+    <form name="myForm" onSubmit= "return validateAll()" >
+        <div class="register-container">
+            <h1>Register</h1>
+            <hr>
+
+            <p><label for="Name"><b>Name</b></label></p>
+            <input type="text" placeholder="Enter Name" name="Name" id="Name" required>
+
+            <p><label for="Surname"><b>Surname</b></label></p>
+            <input type="text" placeholder="Enter Surname" name="Surname" id="Surname" required>
+
+            <p><label for="email"><b>Email</b></label></p>
+            <input type="text" placeholder="Enter Email" name="email" id = "email" required>
+
+            <p><label for="pass"><b>Password</b></label></p>
+            <input type="password" placeholder="Enter Password" name="pass" 
+             title="Your password must contain at least an uppercase and a lowercase letter, a number and at least 8 characters" id="pass" required>
+
+            <p> <label for="repeat"><b>Repeat Password</b></label></p>
+            <input type="password" placeholder="Repeat Password" name="repeat" id="repeat" required>
+            <hr>
+
+            <input type="submit" class="button-mid button" value = "Register">
+        </div>
+
+        <div class="container-signin">
+            <p><i>Already have an account? <a href="login.html">Sign in</a>.</i></p>
+        </div>
+    </form>
+
+    
+
+
+
+
+<footer>
+
+    <nav>
+        <hr>
+        <ul class="bodycolour ulhorizontal">
+            <li>
+                <a href="index.html#map"> Contact Us </a>
+            </li>
+
+            <li>
+                <a href="index.html#aboutUs"> About Us </a>
+            </li>
+
+            <li>
+                <a href="ToU.html"> Terms of Use </a>
+            </li>
+            <li>
+                <a href="Corona.html"> Corona Virus </a>
+            </li>
+        </ul>
+    </nav>
+
+</footer>
+
+</body>
+
+</html>

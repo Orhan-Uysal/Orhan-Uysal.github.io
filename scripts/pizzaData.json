@@ -1,0 +1,24 @@
+{
+    "objects":[{
+            "Name":"BBQ Pizza",
+            "cost":"9.99€"
+        },
+        {
+            "Name":"Mozzarella Pizza",
+            "cost":"7.99€"
+        },
+        {
+            "Name":"Bacon Pizza",
+            "cost":"9.99€"
+        },
+        {
+            "Name":"Vegaterian Pizza",
+            "cost":"8.99€"
+        },
+        {
+            "Name":"All in one Pizza",
+            "cost":"10.99€"
+        }
+
+    ]
+}
